@@ -20,7 +20,7 @@ public class Test {
         in.nextLine();
         System.out.println();
 
-        System.out.print("Enter the name of the cruise ship: "); // Ship3
+        System.out.print("Enter the name of the cargo ship: "); // Ship3
         String shipName3 = in.nextLine();
         System.out.print("Enter the cargo capacity in tonnage: ");
         int cap = in.nextInt();
