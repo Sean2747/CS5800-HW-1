@@ -32,7 +32,9 @@ public class Folder {
 
     // display
     public void display() {
+        System.out.println();
         print("");
+        System.out.println();
     }
 
     public void print(String blank) {

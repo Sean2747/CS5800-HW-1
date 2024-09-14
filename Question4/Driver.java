@@ -20,14 +20,16 @@ public class Driver {
         demo1.folders.get(0).folders.get(1).addFolder("_models");
         demo1.folders.get(0).folders.get(1).addFolder("_views");
 
-        // demo1.display();
+        demo1.display();
 
         // remove folder 'app'
+        System.out.println("app removed:");
         demo1.folders.get(0).folders.remove(1);
-        // demo1.display();
+        demo1.display();
 
         // remove folder 'public'
-        // demo1.folders.get(0).folders.remove(2);
+        System.out.println("public removed:");
+        demo1.folders.get(0).folders.remove(2);
         demo1.display();
     }
 }
