@@ -5,12 +5,14 @@ public class Course {
     private Textbook courseTextbook1;
     private Textbook courseTextbook2;
 
+    //contructor for one instructor & one textbook scenario
     public Course(String cn, Instructor i, Textbook t) {
         setCourseName(cn);
         this.courseInstructor1 = i;
         this.courseTextbook1 = t;
     }
 
+    // contructor for two instructors & two textbooks scenario
     public Course(String cn, Instructor i1, Instructor i2, Textbook t1, Textbook t2) {
         setCourseName(cn);
         this.courseInstructor1 = i1;
