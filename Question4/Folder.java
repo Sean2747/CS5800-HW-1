@@ -36,7 +36,6 @@ public class Folder {
     }
 
     public void print(String blank) {
-        // System.out.println(blank + getFolderName());
         System.out.print(blank);
         if (files.isEmpty() && folders.isEmpty()) {
             System.out.print("+ ");
